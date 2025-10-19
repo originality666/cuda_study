@@ -1,0 +1,15 @@
+Warning: This version of nvprof doesn't support the underlying device, GPU profiling skipped
+Warning: nvprof is not supported on devices with compute capability 8.0 and higher.
+
+你当前使用的 GPU 架构版本（Compute Capability 8.0 及以上，比如 Ampere 架构：RTX 30 系列、A100、H100 等）已经不再被 nvprof 支持。
+NVIDIA 官方从 CUDA 11 开始就弃用了 nvprof，并推荐改用新的性能分析工具。
+
+解决方案:
+
+使用 Nsight Systems 用于整体性能分析（时间线视图、CPU+GPU 调度分析）
+
+命令: nsys profile ./nvprofAnalysis
+
+执行后会生成一个 .qdrep 文件，可用 Nsight Systems GUI 打开，导入到本地再打开
+
+打开 GUI → File → Open Report → 选择 your_report.qdrep
