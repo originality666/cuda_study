@@ -14,3 +14,16 @@ nvcc ex.cu -o ex_computeXY_smZW -arch=compute_XY -code=sm_ZW
 5. 要指定真实显卡计算能力版本，必须要先指定虚拟显卡计算能力版本
 
 6. 指定的真实架构计算能力必需大于或等于虚拟架构计算能力
+
+7. 为使得编译出来的可执行文件可以在多个GPU中执行，可以指定多组计算能力版本:
+
+   -gencode arch=compute_XY,code=sm_XY
+
+   eg:
+   -gencode arch=compute_35,code=sm_35 开普勒架构(cuda11.6 已经不再支持该架构)
+   -gencode arch=compute_50,code=sm_50 麦克斯韦架构
+   -gencode arch=compute_60,code=sm_60 帕斯卡架构
+   -gencode arch=compute_70,code=sm_70 伏特架构
+   -gencode arch=compute_80,code=sm_80 图灵架构
+   
+   编译出的可执行文件包括5个二进制版本，生成的可执行文件成为胖二进制文件（fatbinary）
