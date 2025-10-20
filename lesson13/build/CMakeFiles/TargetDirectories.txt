@@ -1,0 +1,4 @@
+/root/cuda_lesson/lesson13/build/CMakeFiles/rebuild_cache.dir
+/root/cuda_lesson/lesson13/build/CMakeFiles/edit_cache.dir
+/root/cuda_lesson/lesson13/build/CMakeFiles/dynamic_shared_memory.dir
+/root/cuda_lesson/lesson13/build/CMakeFiles/static_shared_memory.dir

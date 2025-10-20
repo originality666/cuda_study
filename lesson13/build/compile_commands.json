@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/root/cuda_lesson/lesson13/build",
+  "command": "/usr/local/cuda/bin/nvcc      -std=c++14 -x cu -c /root/cuda_lesson/lesson13/dynamic_shared_memory.cu -o CMakeFiles/dynamic_shared_memory.dir/dynamic_shared_memory.cu.o",
+  "file": "/root/cuda_lesson/lesson13/dynamic_shared_memory.cu"
+},
+{
+  "directory": "/root/cuda_lesson/lesson13/build",
+  "command": "/usr/local/cuda/bin/nvcc      -std=c++14 -x cu -c /root/cuda_lesson/lesson13/static_shared_memory.cu -o CMakeFiles/static_shared_memory.dir/static_shared_memory.cu.o",
+  "file": "/root/cuda_lesson/lesson13/static_shared_memory.cu"
+}
+]
