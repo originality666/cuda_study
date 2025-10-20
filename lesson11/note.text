@@ -1,0 +1,3 @@
+如果想要查看nvcc编译过程中GPU内存的使用情况，可以在nvcc指令中添加--resource-usage来获得全局静态内存、寄存器内存、常量内存的使用情况
+
+nvcc --resource-usage file.cu -o file
