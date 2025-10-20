@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/cuda_lesson/lesson12/build",
+  "command": "/usr/local/cuda/bin/nvcc     -O3 -arch=sm_86 --ptxas-options=-v   -std=c++14 -x cu -c /root/cuda_lesson/lesson12/global_memory.cu -o CMakeFiles/global_memory.dir/global_memory.cu.o",
+  "file": "/root/cuda_lesson/lesson12/global_memory.cu"
+}
+]
