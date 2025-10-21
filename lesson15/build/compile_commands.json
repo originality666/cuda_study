@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/cuda_lesson/lesson15/build",
+  "command": "/usr/local/cuda/bin/nvcc     -O3 -arch=sm_80 -Xptxas -dlcm=ca   -std=c++14 -x cu -c /root/cuda_lesson/lesson15/GPU_cache.cu -o CMakeFiles/GPU_cache.dir/GPU_cache.cu.o",
+  "file": "/root/cuda_lesson/lesson15/GPU_cache.cu"
+}
+]

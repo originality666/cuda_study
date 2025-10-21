@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/cuda_lesson/lesson14/build",
+  "command": "/usr/local/cuda/bin/nvcc      -std=c++14 -x cu -c /root/cuda_lesson/lesson14/constant_memory.cu -o CMakeFiles/constant_memory.dir/constant_memory.cu.o",
+  "file": "/root/cuda_lesson/lesson14/constant_memory.cu"
+}
+]

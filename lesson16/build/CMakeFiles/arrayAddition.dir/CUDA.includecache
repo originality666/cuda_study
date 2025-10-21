@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cuda_lesson/lesson16/arrayAddition.cu
+cuda_runtime.h
+-
+iostream
+-
+common.cuh
+/root/cuda_lesson/lesson16/common.cuh
+
+/root/cuda_lesson/lesson16/common.cuh
+stdlib.h
+-
+stdio.h
+-
+

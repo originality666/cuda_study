@@ -1,0 +1,4 @@
+/root/cuda_lesson/lesson16/build/CMakeFiles/rebuild_cache.dir
+/root/cuda_lesson/lesson16/build/CMakeFiles/arrayAddition.dir
+/root/cuda_lesson/lesson16/build/CMakeFiles/edit_cache.dir
+/root/cuda_lesson/lesson16/build/CMakeFiles/queryInfo.dir

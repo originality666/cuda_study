@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cuda_lesson/lesson15/GPU_cache.cu
+cuda_runtime.h
+-
+iostream
+-
+common.cuh
+/root/cuda_lesson/lesson15/common.cuh
+
+/root/cuda_lesson/lesson15/common.cuh
+stdlib.h
+-
+stdio.h
+-
+
